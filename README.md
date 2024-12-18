@@ -11,87 +11,48 @@ Government of Gujarat
 
 ## Idea
 
-Create a web and mobile platform for alumni to connect, share opportunities, and stay updated with their alma mater. The platform will facilitate networking, mentoring, fundraising, event management, and career opportunities while enhancing the sense of community among alumni and the institute.
+1.Networking: A platform for alumni to connect, collaborate, and access career opportunities through professional profiles and mentorship programs.
+
+2.Donations: A secure and easy-to-use system for alumni to contribute to college initiatives, fostering a culture of giving and support.
+
+3.Achievements: A dedicated space to showcase alumni success stories, highlighting career milestones and societal contributions.
+
+4.Events: Tools for organizing and promoting alumni events, reunions, and professional development sessions to maintain engagement and community.
 
 ## Proposed Solution / Architecture Diagram
 
-Solution:
+![392229244-ccd3e3a0-d63f-457f-add9-4485cdc172bf](https://github.com/user-attachments/assets/44aadf0d-7071-4940-8ee4-bbbfce6973e5)
 
-1.Core Features:
 
-Alumni Directory: A searchable database of alumni profiles.
-
-Event Management: Hosting webinars, reunions, and fundraisers.
-
-Networking and Mentorship: Alumni can mentor students or other alumni.
-
-Job Board: Alumni and corporate partners can post job opportunities.
-
-News and Updates: Share newsletters, announcements, and achievements.
-
-Donation Platform: Alumni can contribute to institute funds.
-
-Discussion Forums: Engage in topic-based conversations.
-
-Analytics Dashboard: Track engagement and fundraising data.
-
-2.Integration Points:
-
-Social media platforms for login and profile enrichment.
-
-Payment gateways for donations and event fees.
-
-Third-party job boards for syncing opportunities.
-
-![sih image 1](https://github.com/user-attachments/assets/0f6da3bf-2052-4ecd-ad74-2d22f011a54a)
 
 ## Use Cases
 
-![sih image 2](https://github.com/user-attachments/assets/ce236f35-d83e-49be-a9ab-3c11460887b4)
+![392229875-c3e1fab6-dd05-4848-97a8-531bd83395e5](https://github.com/user-attachments/assets/54ccbd48-1066-457b-a836-caddf1404c18)
 
 
 ## Technology Stack
 
-1.Frontend:
-Web: React.js or Angular.
-Mobile: React Native or Flutter.
+1.Frontend Development (Web & Mobile):
 
-2.Backend:
-Node.js with Express.js or Python with Django/Flask.
-GraphQL or REST API for communication.
+Explanation: Utilizes modern JavaScript frameworks (React.js or Vue.js) and mobile development tools (React Native or Flutter) to create dynamic, responsive, and user-friendly interfaces for both web and mobile platforms, ensuring a seamless experience across devices.
+
+2.Backend Development:
+
+Explanation: Leverages powerful server-side frameworks like Node.js with Express.js or Python with Django/Flask to build a scalable, maintainable backend that efficiently handles API requests, user data management, and integrates with the platform's core features.
 
 3.Database:
-Relational Database: PostgreSQL/MySQL.
-NoSQL Database: MongoDB/ElasticSearch.
 
-4.Authentication:
-OAuth2.0 with Google/Facebook/LinkedIn.
-Firebase Auth for mobile app authentication.
+Explanation: Uses relational databases like PostgreSQL or MySQL for structured data storage, NoSQL databases like MongoDB for unstructured data, and Firebase for real-time data synchronization and scalable storage, ensuring efficient data management across the platform.
 
-5.Third-Party Services:
-Payment Gateways: Stripe/PayPal.
-Email/Notification: SendGrid, Twilio, Firebase.
+4.Authentication and Security:
 
-6.Hosting:
-Cloud: AWS, Azure, or Google Cloud Platform.
-CDN: Cloudflare.
+Explanation: Implements OAuth 2.0/OpenID Connect for secure user authentication, JWT for session management, SSL/TLS encryption for secure data transmission, and 2FA for added account protection, ensuring the security and privacy of user information.
+
+5.Payment and Donations System:
+
+Explanation: Integrates payment gateways like Stripe, PayPal, or Razorpay to securely process donations and transactions within the platform, providing alumni with a seamless and trusted way to contribute financially to the institution.
 
 ## Dependencies
 
-1.Data Privacy and Security Compliance:
-Ensure adherence to GDPR, CCPA, or other regional data laws.
-Implement SSL encryption and secure authentication.
+1.Tracking Service -14days 2.Information collection -14 days 3.Budget-Rs 50,000
 
-2.Third-party API Integrations:
-Payment processing, social media, and job boards.
-
-3.Scalability:
-Use microservices architecture for scaling modules independently.
-Employ containerization (Docker, Kubernetes) for flexible deployments.
-
-4.Continuous Integration/Continuous Deployment (CI/CD):
-Use Jenkins, GitHub Actions, or GitLab CI for seamless updates.
-
-5.Performance Monitoring:
-Use tools like New Relic, Datadog, or Prometheus for real-time monitoring.
-Would you like a specific part expanded or the diagram generated?
